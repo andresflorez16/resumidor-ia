@@ -13,7 +13,12 @@ export default function Layout ({ children }) {
         <link rel='icon' href='/favicon.ico' />
       </Head>
       <Header />
-      <Box minH='100vh'>
+      <Box
+        minH='80vh'
+        mt='100px'
+        display='flex'
+        justifyContent='center'
+      >
         {children}
       </Box>
       <Footer />
