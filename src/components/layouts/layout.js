@@ -8,13 +8,13 @@ export default function Layout ({ children }) {
     <div>
       <Head>
         <title>Resumidor IA</title>
-        <meta name='description' content='Resume, pregunta y transcribe información sobre cualquier libro o PDF' />
+        <meta name='description' content='Resume, pregunta  información sobre cualquier libro o PDF' />
         <meta name='viewport' content='width=device-width, initial-scale=1' />
         <link rel='icon' href='/favicon.ico' />
       </Head>
       <Header />
       <Box
-        minH='80vh'
+        minH='75vh'
         mt='100px'
         display='flex'
         justifyContent='center'
