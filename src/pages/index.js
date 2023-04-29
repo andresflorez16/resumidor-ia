@@ -57,6 +57,7 @@ export default function Home () {
           <Button
             colorScheme='blue'
             type='submit'
+            isDisabled={loading}
           >
             Enviar
           </Button>
