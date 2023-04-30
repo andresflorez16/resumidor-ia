@@ -1,7 +1,7 @@
 import { useState } from 'react'
 
 import Layout from '@/components/layouts/layout'
-import { Box, Button, FormControl, Input, Spinner, Textarea } from '@chakra-ui/react'
+import { Box, Button, FormControl, Input, Spinner, Text, Textarea } from '@chakra-ui/react'
 import { Inter } from 'next/font/google'
 
 const inter = Inter({ subsets: ['latin'] })
@@ -37,6 +37,12 @@ export default function Home () {
         className={inter.className}
         w={{ base: '90%', md: '50%' }}
       >
+        <Text
+          as='h2'
+          my={3}
+        >
+          Tan sencillo como poner el nombre del libro y lo que quieras saber sobre él.
+        </Text>
         <FormControl
           as='form'
           display='flex'
